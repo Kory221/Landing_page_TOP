@@ -8,8 +8,58 @@ body{
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .content{
     flex:auto;
+}
+
+.top, .footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.centertwo{
+    background-color: #E5E7EB;
+}
+
+button, .action{
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.restone h1{
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.restone p, .header a{
+font-size: 18px;
+color: #E5E7EB;
+text-decoration: none;
+}
+
+.header ul{
+    list-style: none;
+}
+.centerone h2{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight: 900;
+}
+
+.comment{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: light;
+
+}
+
+.author{
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: bold;
 }
