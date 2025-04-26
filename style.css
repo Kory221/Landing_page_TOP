@@ -64,8 +64,8 @@ button, .action{
 }
 
 .restone button{
-    height: 40px;
-    width: 120px;
+    height: 35px;
+    width: 130px;
     border: none;
     border-radius: 8px;
     font-weight: bold;
@@ -181,9 +181,35 @@ border-radius: 6px;
 flex:1;
 }
 
+.centerthree{
+    padding: 100px 180px;
+}
+
 .action{
-    margin: 100px 200px;
-    padding: 35px 70px;
-    display: flex;
+    margin:0px;
+    padding: 50px 120px;
     border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action button{
+    height: 35px;
+    width: 130px;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    border-color: white;
+    border-style: solid;
+}
+
+.action-text h3{
+    font-size: 24px;
+    margin:0px;
+}
+
+.action-text p{
+    font-size: 18px;
+    margin:0px;
 }
