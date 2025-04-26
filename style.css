@@ -21,7 +21,10 @@ body{
 }
 
 .top{
-    padding: 20px 210px 140px;
+    padding: 10px 180px 120px 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 61px;
 }
 
 .centertwo{
@@ -37,6 +40,22 @@ button, .action{
     color:#F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    margin-top: 0px;
+    margin-bottom:0px;
+}
+
+.restone p{
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+
+.restone button{
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .restone p, .header a{
@@ -70,19 +89,28 @@ text-decoration: none;
     font-weight: bold;
 }
 
-.top{
-    display: flex;
-    flex-direction: column;
-}
-
 .header{
     display: flex;
     justify-content: space-between;
+    margin-bottom:40px;
 }
 
 .rest-top{
     display: flex;
-    justify-content: space-between;
+   justify-content: space-between;
+   height: fit-content;
+}
+
+.restone{
+    padding-right: 0px;
+    box-sizing: border-box;
+    height: 228px;
+    width: 430px;
+}
+
+.resttwo{
+    height:228px;
+    width: fit-content;
 }
 
 .center{
@@ -109,4 +137,5 @@ text-decoration: none;
     margin: 100px 200px;
     padding: 35px 70px;
     display: flex;
+    border-radius: 8px;
 }
