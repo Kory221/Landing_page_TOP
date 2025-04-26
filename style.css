@@ -20,6 +20,10 @@ body{
     color: #F9FAF8;
 }
 
+.top{
+    padding: 20px 210px 140px;
+}
+
 .centertwo{
     background-color: #E5E7EB;
 }
@@ -43,6 +47,8 @@ text-decoration: none;
 
 .header ul{
     list-style: none;
+    display: flex;
+    gap: 20px;
 }
 .centerone h2{
     font-size: 36px;
@@ -62,4 +68,45 @@ text-decoration: none;
     font-size: 24px;
     color: #1F2937;
     font-weight: bold;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rest-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+}
+
+.centerone{
+    display: flex;
+    flex-direction: column;
+}
+
+.infos{
+    display:flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.infoone, .infotwo, .infothree, .infofour{
+    height: 200px;
+}
+
+.action{
+    margin: 100px 200px;
+    padding: 35px 70px;
+    display: flex;
 }
