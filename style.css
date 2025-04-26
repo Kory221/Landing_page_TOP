@@ -36,6 +36,13 @@ body{
 
 .centertwo{
     background-color: #E5E7EB;
+    padding: 110px 260px;
+}
+
+.centertwo p{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 button, .action{
@@ -86,14 +93,15 @@ text-decoration: none;
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
-    font-weight: light;
-
+    font-weight: lighter;
+    text-align: left;
 }
 
 .author{
     font-size: 24px;
     color: #1F2937;
     font-weight: bold;
+    text-align: right;
 }
 
 .header{
