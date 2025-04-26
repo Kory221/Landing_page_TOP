@@ -1,5 +1,12 @@
 html{
     height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
 }
 
 body{
@@ -121,16 +128,49 @@ text-decoration: none;
 .centerone{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-bottom: 125px;
+    padding-top: 10px;
 }
 
+.centerone h2{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
 .infos{
     display:flex;
-    gap: 20px;
+    gap: 50px;
     align-items: center;
 }
 
+.infos p{
+    width: 164px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0px;
+    color:#1F2937;
+}
+
 .infoone, .infotwo, .infothree, .infofour{
-    height: 200px;
+    height: 250px;
+    width: fit-content;
+}
+
+.lion, .eagle, .wolf, .falcon{
+    border:3px;
+    border-style:solid;
+    border-color: #508df0;
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 170px;
+    width: fit-content;
+    display:flex;
+    justify-content:center;
+}
+
+.lion img, .eagle img, .wolf img, .falcon img{
+border-radius: 6px;
+flex:1;
 }
 
 .action{
