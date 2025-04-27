@@ -7,12 +7,14 @@ html{
 *::before,
 *::after{
     box-sizing: inherit;
+    flex: 0 1 auto;
 }
 
 body{
     display:flex;
     flex-direction: column;
     height: 100%;
+    min-width: fit-content;
     margin: 0;
     padding: 0;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -32,6 +34,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 61px;
+
 }
 
 footer{
@@ -89,6 +92,7 @@ text-decoration: none;
     display: flex;
     gap: 20px;
 }
+
 .centerone h2{
     font-size: 36px;
     color:#1F2937;
@@ -119,7 +123,7 @@ text-decoration: none;
 .rest-top{
     display: flex;
    justify-content: space-between;
-   height: fit-content;
+   flex-wrap: wrap;
 }
 
 .restone{
@@ -130,8 +134,14 @@ text-decoration: none;
 }
 
 .resttwo{
-    height:228px;
-    width: fit-content;
+    display: flex;
+    width: 480px;
+    height: 220px;
+}
+
+.resttwo img{
+    width: 100%;
+    height:auto;
 }
 
 .center{
@@ -155,6 +165,7 @@ text-decoration: none;
     display:flex;
     gap: 50px;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .infos p{
@@ -197,12 +208,14 @@ flex:1;
     border-radius: 8px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
 }
 
 .action button{
     height: 35px;
     width: 130px;
+    min-width: fit-content;
     border-radius: 8px;
     font-size: 18px;
     font-weight: bold;
